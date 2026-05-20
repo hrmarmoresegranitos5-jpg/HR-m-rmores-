@@ -107,8 +107,6 @@ function _sendNotif(title, body, key) {
   } catch(e){}
 }
 
-  return h;
-}
 
 // ─────────────────────────────────────────────
 // RENDER PRINCIPAL
