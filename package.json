@@ -1,0 +1,14 @@
+{
+  "name": "hr-marmores-granitos",
+  "version": "2.0.0",
+  "description": "Sistema HR Mármores e Granitos",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {}
+}
