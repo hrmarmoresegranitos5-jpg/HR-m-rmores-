@@ -2168,3 +2168,47 @@ label {
 .sec-vis-btn.blu{background:rgba(74,128,181,.12);color:#60a0e0;border-color:rgba(74,128,181,.3);}
 .sec-empty{text-align:center;padding:40px 20px;color:var(--t3);font-size:.82rem;line-height:1.8;}
 }
+/* ── Secretaria: Diagnóstico ── */
+.sec-diag-card{background:var(--s2);border:1px solid var(--bd2);border-radius:14px;padding:14px;margin-bottom:12px;}
+.sec-diag-ok{display:flex;align-items:center;gap:12px;padding:4px 0;}
+.sec-diag-item{display:flex;align-items:flex-start;gap:10px;padding:10px 0;border-left:3px solid var(--bd2);padding-left:12px;margin-bottom:8px;background:var(--s1);border-radius:0 10px 10px 0;padding:10px 12px;}
+.sec-diag-icon{font-size:1.1rem;flex-shrink:0;margin-top:1px;}
+.sec-diag-body{flex:1;min-width:0;}
+.sec-diag-title{font-size:.78rem;font-weight:700;margin-bottom:3px;}
+.sec-diag-desc{font-size:.7rem;color:var(--t3);line-height:1.5;margin-bottom:3px;}
+.sec-diag-acao{font-size:.68rem;color:var(--gold2);line-height:1.5;font-style:italic;}
+.sec-diag-stats{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px;padding-top:10px;border-top:1px solid var(--bd);}
+.sec-ds-item{display:flex;align-items:center;gap:5px;background:var(--s3);border-radius:8px;padding:5px 9px;font-size:.68rem;}
+.sec-ds-icon{font-size:.85rem;}
+.sec-ds-val{font-weight:700;color:var(--gold2);}
+.sec-ds-lbl{color:var(--t3);}
+/* ── Secretaria: Financeiro ── */
+.sec-fin-card{background:var(--s2);border:1px solid var(--bd2);border-radius:14px;padding:14px;margin-bottom:12px;}
+.sec-fin-header{font-size:.6rem;letter-spacing:2px;text-transform:uppercase;color:var(--t4);font-weight:700;margin-bottom:10px;}
+.sec-fin-row{display:flex;gap:8px;flex-wrap:wrap;}
+.sec-fin-item{flex:1;min-width:80px;text-align:center;background:var(--s3);border-radius:10px;padding:10px 6px;}
+.sec-fin-val{font-size:.82rem;font-weight:800;margin-bottom:2px;}
+.sec-fin-lbl{font-size:.6rem;color:var(--t4);text-transform:uppercase;letter-spacing:.5px;}
+.sec-fin-div{height:1px;background:var(--bd);margin:10px 0;}
+.sec-fin-btn{width:100%;margin-top:12px;padding:9px;border-radius:10px;border:1px solid var(--bd2);background:transparent;color:var(--gold2);font-size:.76rem;font-weight:700;font-family:Outfit,sans-serif;cursor:pointer;touch-action:manipulation;}
+/* ── Secretaria: Produção ── */
+.sec-prod-card{background:var(--s2);border:1px solid var(--bd2);border-radius:14px;padding:14px;margin-bottom:12px;}
+.sec-prod-alerta{font-size:.72rem;color:#f0a040;font-weight:700;margin-bottom:8px;}
+.sec-prod-item{display:flex;align-items:center;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--bd);}
+.sec-prod-item:last-of-type{border-bottom:none;}
+.sec-prod-info{flex:1;min-width:0;}
+.sec-prod-cli{font-size:.78rem;font-weight:700;color:var(--t1);}
+.sec-prod-desc{font-size:.68rem;color:var(--t3);margin-top:1px;}
+.sec-prod-prazo{font-size:.72rem;margin-left:10px;flex-shrink:0;}
+.sec-prod-stats{display:flex;gap:6px;margin-top:12px;padding-top:10px;border-top:1px solid var(--bd);}
+.sec-prod-stat{flex:1;text-align:center;font-size:.65rem;color:var(--t3);line-height:1.7;}
+/* ── Secretaria: Orçamentos ── */
+.sec-orc-list{background:var(--s2);border:1px solid var(--bd2);border-radius:14px;padding:14px;margin-bottom:12px;}
+.sec-orc-item{display:flex;align-items:center;justify-content:space-between;padding:9px 0;border-bottom:1px solid var(--bd);}
+.sec-orc-item:last-of-type{border-bottom:none;padding-bottom:0;}
+.sec-orc-info{flex:1;min-width:0;}
+.sec-orc-cli{font-size:.8rem;font-weight:700;color:var(--t1);margin-bottom:2px;}
+.sec-orc-meta{font-size:.65rem;color:var(--t3);}
+.sec-orc-right{text-align:right;margin-left:10px;flex-shrink:0;}
+.sec-orc-val{font-size:.78rem;font-weight:700;color:var(--gold2);}
+.sec-orc-status{font-size:.62rem;margin-top:2px;font-weight:600;}
